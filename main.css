@@ -199,7 +199,7 @@
   .imagen-tarjeta {
     width: 100%;
     height: 9.375em;
-    background-image: url(./images/world-wide-web-g37b155f8d_1920.jpg);
+    background-image: url(../images/world-wide-web-g37b155f8d_1920.jpg);
     background-size: cover;
   }
 
@@ -232,7 +232,7 @@
   .contacto {
     margin: 0 auto;
     background-color: #310638;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./images/yo.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../images/yo.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: contain;
