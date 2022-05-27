@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana Caamaño</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+    <script></script>
+</head>
+
+<body>
+
+  <header class="encabezado">
+    <nav class="barra">
+      
+      <a href="index.html" class="logo link">Logo</a>
+      <button class="hamburguesa">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="menu">
+        <li class="item">
+          <a href="index.html" class="menu-link link">Home</a>
+        </li>
+        <li class="item">
+          <a href="#sobremi" class="menu-link link">Sobre mí</a>
+        </li>
+        <li class="item">
+          <a href="#portfolio" class="menu-link link">Portfolio</a>
+        </li>
+        <li class="item">
+          <a href="#contacto" class="menu-link link">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main class="principal nombre">
+    <div class="contenedor">
+      <div>
+        <h1><span> Mariana</span> Caamaño </h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut. Ad eveniet, quibusdam laudantium sequi quaerat officiis iure commodi saepe! Ullam quis reprehenderit enim, ducimus quod saepe quaerat tempora voluptates rem illo?</p>
+        
+        <!-- falta archivo cv  -->
+        <a download href="#">Descargar CV</a>
+      </div>
+      <img src="images/panadero.jpg" alt="panadero">
+    </div>      
+  </main>
+
+
+  <div class="sobremi" id="sobremi">
+    <img src="images/0f674b6f-da6d-4581-a65a-27187a090ac6.JPEG" alt="Mariana Caamaño retrato">
+    <div class="sobremi-info">
+      <h2>Sobre mí</h2>
+      <div class="divisor"></div>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis totam earum quis culpa consectetur. Officiis eaque suscipit ut. Esse dolorum iste odit corporis sit error fugiat eos ducimus asperiores quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aspernatur similique enim minima? Quae quo molestiae magnam iusto illum vel eius, cumque dolorem sapiente consectetur maiores quisquam explicabo, tempora ipsam.</p>  
+      <form action="#motivo">
+        <button type="submit" class="motivo">Lo que me motiva</button>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- faltan todos los link y boton -->
+  <div class="portfolio" id="portfolio">
+    <div class="encabezado-portfolio">
+      <h2>Mi Portfolio</h2>
+      <div class="divisor"></div>
+    </div>
+    <div class="contenedor">
+
+      <div class="tarjeta">
+        <div class="imagen-tarjeta">
+        </div>
+        <div class="titulo-tarjeta">
+          <h2>Proyecto 1</h2>
+        </div>
+        <div class="link-proyecto">
+          <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-solid fa-earth-americas"></i></a>
+          <a href=""><i class="fa-solid fa-code"></i></a>
+        </div>
+        <a class="detalles" href="#">Detalles del Proyecto</a>
+      </div>
+
+      <div class="tarjeta">
+        <div class="imagen-tarjeta">
+        </div>
+        <div class="titulo-tarjeta">
+          <h2>Proyecto 2</h2>
+        </div>
+        <div class="link-proyecto">
+          <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-solid fa-earth-americas"></i></a>
+          <a href=""><i class="fa-solid fa-code"></i></a>
+        </div>
+        <a class="detalles" href="#">Detalles del Proyecto</a>
+      </div>
+
+      <div class="tarjeta">
+        <div class="imagen-tarjeta">
+        </div>
+        <div class="titulo-tarjeta">
+          <h2>Proyecto 3</h2>
+        </div>
+        <div class="link-proyecto">
+          <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-solid fa-earth-americas"></i></a>
+          <a href=""><i class="fa-solid fa-code"></i></a>
+        </div>
+        <a class="detalles" href="#">Detalles del Proyecto</a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="contacto" id="contacto">
+    <div class="titulo-contacto">
+      <h2>Contacto </h2>
+      <div class="divisor"></div>
+    </div>  
+    <div class="contenedor-contacto">
+      <div class="formulario">
+        <div class="animar" >
+          <div>
+            <span>Enviame tus comentarios...</span>
+            <span>Enviame tus comentarios...</span>
+          </div>
+        </div>
+        <form class="form" id="formulario">
+          
+          <div class="form-grupo" id="grupo-nombre">
+            <div class="formul-input">
+              <input type="text" class="form-input" name="nombre" placeholder="Nombre">
+              <i class="valida-estado fa-solid fa-circle-xmark"></i>
+            </div>
+            <p class="texto-error">El nombre solo puede contener letras y espacios</p>
+          </div>
+
+          
+          <div class="form-grupo" id="grupo-email">
+            <div class="formul-input">
+              <input type="text" class="form-input" name="email" placeholder="Email">
+              <i class="valida-estado fa-solid fa-circle-xmark"></i>
+            </div>
+            <p class="texto-error">La dirección de email es incorrecta</p>
+          </div>
+          
+          <textarea placeholder="Escribe aquí..."></textarea>
+          
+          <div class="mensaje-error" id="mensaje-error">
+            <p><i class="fa-solid fa-triangle-exclamation"></i><b>  Error :</b>  Por favor rellena el formulario correctamente</p>
+          </div>
+
+          <div class="grupo-boton">
+            <button type="submit" class="boton-envio">Enviar</button>
+            <p class="mensaje-exito" id="mensaje-exito">Formulario enviado exitosamente!</p>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="principal tanv" id="motivo">
+    <div class="contenedor">
+      <div>
+        <h1>Visualizando lo <span>invisible</span> </h1>
+        <p><a href="https://www.tanv.es/que-es-el-tanv/" target="_blank">Aprendé sobre el TANV </a> </p>
+      </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1tOlV6dMflc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>      
+  </div>
+  
+ 
+  <footer class="pie">
+    <div class="contenedor-pie">
+       <h2>MariCaam</h2> 
+    </div>
+    <div class="redes">
+      <a href="https://www.linkedin.com/in/mariana-caama%C3%B1o-539217a0/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://twitter.com/marianacaam" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.instagram.com/maricaam/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/marianaestherc" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+
+
+  </footer>
+    
+    <script src="JS/index.js"> </script>
+</body>
+</html>
